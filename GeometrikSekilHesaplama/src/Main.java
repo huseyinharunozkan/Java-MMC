@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-		String islemler = 		"Ýþlemler : \n" 
+		String islemler = "Ýþlemler : \n" 
 						+ "1. Kare Alan Hesapla\n" 
 						+ "2. Üçgen Alan Hesapla\n" 
 						+ "3. Daire Alan Hesapla\n"
