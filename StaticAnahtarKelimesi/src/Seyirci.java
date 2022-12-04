@@ -1,8 +1,8 @@
 
 public class Seyirci {
-	private String isim;
+	private  String isim;
 	
-	public static int seyirciSayisi = 0;
+	private static int seyirciSayisi = 0;
 	
 	
 	public Seyirci(String isim) {
@@ -23,4 +23,8 @@ public class Seyirci {
 		System.out.println(isim+" oyun seyrediyor...");
 	}
 	
+	public static int getSeyirciSayisi() {
+	
+		return seyirciSayisi;
+	}
 }
