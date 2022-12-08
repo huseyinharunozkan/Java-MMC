@@ -20,7 +20,7 @@ public class Main {
 		};
 		ogrenci.dersCalis();
 		ogrenci.derseGir();
-		System.out.println("*************************");
+		System.out.println("**************************");
 		
 		AOgrenci ogrenci2 = new AOgrenci("Harun",319) {
 
