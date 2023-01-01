@@ -14,7 +14,7 @@ public class KapsamSinifi2 {
 		private int privateDegisken = 20;
 		int a = 3;
 		public void onileCarp() {
-		//	int privateDegisken = 10;
+			int privateDegisken = 10;
 			
 			for(int i = 1;i<6;i++) {
 				
