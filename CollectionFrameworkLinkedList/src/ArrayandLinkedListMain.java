@@ -9,7 +9,7 @@ public class ArrayandLinkedListMain {
 		LinkedList<Integer> linkedlist = new LinkedList<Integer>();
 		ArrayList<Integer> arraylist = new ArrayList<Integer>();
 		
-	//	zamanHesapla("LinkedList", linkedlist);
+		zamanHesapla("LinkedList", linkedlist);
 		zamanHesapla("ArrayList", arraylist);
 
 	}
@@ -20,7 +20,7 @@ public class ArrayandLinkedListMain {
 		long bitis;
 		
 		baslangic = System.currentTimeMillis();
-		for(int i = 0; i<1000000;i++) {
+		for(int i = 0; i<10000;i++) {
 			
 			list.add(0,i);
 		} 
