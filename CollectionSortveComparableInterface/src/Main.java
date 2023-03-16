@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
@@ -36,7 +37,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-	/*	List<String> listString = new ArrayList<String>();
+/*	List<String> listString = new ArrayList<String>();
 		
 		listString.add("Java");
 		listString.add("C++");
@@ -60,8 +61,7 @@ public class Main {
 		
 		Player p1 = new Player("Harun",17);
 		Player p2 = new Player("Ýdil",06);
-		Player p3 = new Player("Ýklim",9);
-		Player p4 = new Player("Muslera",4);
+		
 		
 	//	System.out.println(p1.compareTo(p1));
 		
